@@ -17,7 +17,7 @@ print(10*5)
 print(10/5)
 print(10^5)
 print(11%/%5)
-print(11%%5);print(10%%5) # 5*2+1=11
+print(11%%5) # 5*2+1=11
 
 ## some built-in math functions
 sqrt(4);abs(-10);exp(3);log(27);round(11.576, 2);
