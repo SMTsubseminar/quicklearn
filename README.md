@@ -1,4 +1,4 @@
-# quicklearn
+# quicklearn git
 Quick learning of how to use git and github
 
 ## マージのやり方
@@ -14,6 +14,9 @@ git merge koh
 ```
 # クローン/プルしてリモートレポジトリの情報をローカルに読み込む
 git clone git@github<repository-name>.git/git pull origin
+# プルの(ある意味正確な)やり方
+git fetch
+git merge origin/<branch-name>
 # ブランチを切る(git checkoutに-bをつけると今いるブランチをコピーしたブランチを作成できる)
 git checkout -b <branch-name>
 # 編集後, コミットする
